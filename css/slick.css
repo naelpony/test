@@ -1,0 +1,25 @@
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-arrow {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+.slick-arrow.slick-prev {
+  margin: 0 10px 0 0;
+  background: #F6F6F6 url("/img/src/arrleft.svg") center center no-repeat;
+}
+
+.slick-arrow.slick-next {
+  background: #F6F6F6 url("/img/src/arrright.svg") center center no-repeat;
+}
